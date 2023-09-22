@@ -1,0 +1,22 @@
+form{
+margin-top: 2cm;
+margin-left:10cm;
+margin-right:7cm;
+background-color: rgb(107, 106, 123);
+border:solid;
+}
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 10px #00ffff;
+}
+div ,p{
+    font-size: large;
+    color:aquamarine;
+}
+img{
+    border:solid;
+    width: 500px;
+}
+hr{
+    color:#00ffff;
+}
