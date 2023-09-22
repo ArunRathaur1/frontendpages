@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <title>Chnage Password</title>
+        <style>
+            body{
+                background-image: url(forground.png);
+                color:white;
+            }
+            div[class="total"]{
+                width:25cm;
+                margin: auto;
+                margin-top:1cm;
+                background-color: rgb(29, 221, 255);
+                opacity: 80%;
+                border-radius:10px;
+                box-shadow: 5px 5px 10px black;
+            }
+            li{
+                list-style: none;
+                padding-left: 1cm;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: 900;
+                font-family: 'Times New Roman', Times, serif;
+                font-style:normal;
+                
+            }
+            em{
+                display: flex;
+                margin-left:3cm;
+            }
+            img{
+                width:1cm;
+            }
+            div[class="onleft"]{
+                padding-top:20px;
+                display:flex;
+                margin-left: 2cm;
+            }
+           
+            div[class="row2"]{
+                display: flex;
+                margin-top:1cm;
+            }
+            div[class="content-right-bottom"]{
+                width:10cm;
+                margin-top: 5cm;
+                font-size: 25;
+                margin-left:20px
+                
+                
+            }
+            div[class="onright"]{
+                padding-left:2cm;
+                padding-right:2cm;
+                padding-bottom:2cm;
+                margin-bottom: 0.5cm;
+                margin-left: 2cm;
+                background-color: rgb(0, 214, 214);
+                border-radius:10px
+               
+            
+            }
+            div[class=content-right]{
+                font-size: 30;
+                width:7cm;
+                font-weight:800;
+                font-family:Arial, Helvetica, sans-serif;
+                margin-left:20px
+
+                
+            }
+            .content-button{
+                margin-left: 20px;
+            }
+            .singup{
+                
+                font-size: larger;
+                margin: auto;
+                margin-top:20px;
+            }
+            .content-button{
+                font-size: larger;
+                margin-left:3cm;
+                margin-top:20px;
+            }
+            .singup,.content-button{
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 600;
+                color:white;
+                
+                background-color: rgb(0, 209, 139);
+            }
+            .singup:hover,.content-button:hover{
+                background-color: rgb(65, 128, 107);
+            }
+            input[type="password"],input[type="email"]{
+                height:30px;
+                background-color:rgb(0, 214, 214);
+                border:none;
+                width:100%;
+                outline:none;
+                color:white;
+                font-weight: 900;
+                
+            }
+            .line{
+                position: relative;
+                bottom:14px;
+            }
+            p{
+                font-size: large;
+            }
+            span{
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+       <div class="total">
+        <div class="toprow">
+            
+            <div class="onleft">
+                <img src="logo.png"> 
+             <em>
+                <li>Design Challenge</li>
+                <li>Questions to Ask Designe</li>
+                <li>Contact</li>
+            </em>
+            </div>
+            </div>
+            <div class="row2">
+                  <div class="content">
+                    <div class="content-right">It's importent to add Add <span>Label</span> to Form</div>
+                    <div class="content-right-bottom">Well sometimes designer intentionally skips labelling to form and that's of if the placeholder text doesn't need long text to fill,such as email</div>
+                     <button class="content-button">Hire curated Designer</button>
+                  </div>>
+            <div class="onright" style="box-shadow: 5px 5px 10px black;">
+                <h1>Sign Up Now</h1>
+                <hr class="line">
+                <p>Email</p>
+                <p><input type="Email" placeholder="Email"></p>
+                <hr class="line">
+                <p>Password</p>
+                <p><input type="Password" placeholder="Passowrd"></p>
+                <hr class="line">
+                <p>confirm Password</p>
+                <p><input type="Password" placeholder="Confirm Passowrd"></p>
+                <hr class="line">
+                <p><button class="singup">confirm passowrd</button></p>
+            </div>
+            </div>
+        </div>
+       </div>
+    </body>
+</html>
